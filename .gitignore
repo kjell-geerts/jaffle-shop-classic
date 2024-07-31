@@ -1,5 +1,16 @@
 
 target/
-dbt_modules/
+dbt_packages/
+package-lock.yml
 logs/
-**/.DS_Store
+
+# dbt-core
+.user.yml
+.vscode
+*.code-workspace
+.DS_Store
+.env.dev
+.env
+
+# devcontainer
+.devcontainer
